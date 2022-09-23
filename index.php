@@ -68,6 +68,7 @@ $data = explode('@',$data);
 $login= $data[0];
 $parol = $data[1];
 echo "$login and $parol";
+// ders 14
 
 
 
