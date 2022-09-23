@@ -61,14 +61,128 @@
 // echo Nl2br($yazi2);  alty alta yazilmani gorur
 // $yazi3 = str_replace('My','Menim',$yazi); evez edir 
 // echo $yazi3;
-$data = 'Admin@1234';
-$data = explode('@',$data);
+// $data = 'Admin@1234';
+// $data = explode('@',$data);
 // echo $data[0];   @den evvelkileri gosteir
 // echo $data[1]  @den sonrakilari gosterir eger 2ci @ => onda $data[3] yazariq
-$login= $data[0];
-$parol = $data[1];
-echo "$login and $parol";
+// $login= $data[0];
+// $parol = $data[1];
+// echo "$login and $parol";
 // ders 14
+
+// $a = 1;
+// switch($a){
+//     case "1":
+//         echo "salam";
+//         break;
+// }
+
+
+// if(isset($_GET['sehife'])){
+//     $sehife =$_GET['sehife'];
+// }else{
+//     $sehife ='';
+// }
+// switch($sehife){
+//     case  "haqqinda":
+//     echo "bu bolme haqqimizdadir";
+//     case "elaqe":
+//         echo "Elaqe";
+//     default:
+//     echo "ana sehife";
+//   echo ' <a href="index.php?sehife=haqqinda">Haqqinda</a><br>|<a href="index.php?sehife=elaqe">Elaqe</a><br>' ;
+//     break;
+// }
+// localhost/core_php/index/php?sehife=haqqinda olarsa kod isleyecekdir
+
+
+
+// $a = 4567889;
+// $array = array("Sariyev",'Fira',21,'Baki');
+// echo $array[4];
+
+// $array = array(
+//     'soyad' => 'Sariyev',
+//     "ad" => 'Fira',
+//     'yas'=>21,
+//     'seher'=>'baku'
+
+// );
+// $array['ata'] = ' Sahib';
+// echo $array['ata'];
+
+
+// array icinde array
+// $array = array(
+//     array('Sariyeva','fira',21,'baki'),
+
+// );
+// echo $array[0][3];
+// print_r($array)   butun arrayi aciq formada gosterer
+
+// $arr = array('sariyeva','fira',21,'baki');
+//  array_shift($arr);
+//  0ci elementi silir
+// array_unshift($arr,21);
+// 1ci elemente 21 yazir
+// array_pop($arr);
+// sonuncu elementi silir
+// array_push($arr,'dada');
+// sonuna yeni element elave edir
+
+// echo $arr[0];
+// print_r($arr);
+
+// $array = array(
+//     'soyad' => 'Sariyev',
+//     "ad" => 'Fira',
+//     'yas'=>21,
+//     'seher'=>'baku'
+
+// );
+// extract($array);
+// arrayin elementlerini $ deyiskenine cevirir
+// echo $soyad;
+
+// $arr= array('a','b','a','c','c','c');
+// $arr2 =['a','b']; 
+// her 2side arraydi
+// echo count($arr); sayir
+// print_r( array_count_values($arr));
+// hansi elementden nece denedirse gosterir
+
+
+$a =1;
+// while($a <10){
+//     echo $a;
+//     $a++;
+// }
+
+// for($a =1;$a<10;$a++){
+//     echo $a;
+// }
+// $arr = array('a','b',23);
+$array = array(
+    'soyad' => 'Sariyev',
+    "ad" => 'Fira',
+    'yas'=>21,
+    'seher'=>'baku'
+
+);
+// for($say = 0;$say <count($arr);$say++){
+//     echo $arr[$say]."/";
+// }
+// arrayin butun elementlerini yazdirar
+
+// foreach($array as $array2 => $arx){
+//     echo $array2;
+//     echo $arx;
+// } arrayda key value olanda
+// buda butun elementleri  yazdirar;
+
+
+
+
 
 
 
