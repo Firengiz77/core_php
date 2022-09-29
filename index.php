@@ -1,5 +1,24 @@
 <?php
 
+// $qovluq = '.';
+// $qv = opendir($qovluq);
+// while($sadala = readdir($qv)){
+//     if($sadala != '.' and $sadala != ".."){
+//         if(is_dir($sadala)){
+//             echo $sadala ."<br>Qovluqdur<br>";
+//         }elseif(is_file($sadala)){
+//             echo $sadala ."<br>Filedir<br>";
+//         }
+       
+//     }
+
+// }
+// mkdir("yeni", 777);  qovluga giris icazesi
+// ders 25
+
+
+
+
 // $a = 51;
 // $b = 10;
 // $a +=1;
@@ -152,7 +171,7 @@
 // hansi elementden nece denedirse gosterir
 
 
-$a =1;
+// $a =1;
 // while($a <10){
 //     echo $a;
 //     $a++;
@@ -162,13 +181,13 @@ $a =1;
 //     echo $a;
 // }
 // $arr = array('a','b',23);
-$array = array(
-    'soyad' => 'Sariyev',
-    "ad" => 'Fira',
-    'yas'=>21,
-    'seher'=>'baku'
+// $array = array(
+//     'soyad' => 'Sariyev',
+//     "ad" => 'Fira',
+//     'yas'=>21,
+//     'seher'=>'baku'
 
-);
+// );
 // for($say = 0;$say <count($arr);$say++){
 //     echo $arr[$say]."/";
 // }
@@ -309,5 +328,4 @@ emeliiyat : <br>
 
 <input type="submit" value="hesable">
 </form> -->
-
 
